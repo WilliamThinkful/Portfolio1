@@ -1,28 +1,43 @@
 :root {
     --primary: rgb(94, 94, 247);
     --secondary: rgb(13, 13, 236);
+    --header-background: rgb(70, 252, 252);
     
 }
-h2 {
-    font-size: xx-large;
-    background-color: black;
-    color:blue;
+h1 {
+    font-size: 50px;
+    color:black;
+    background-color: var(--header-background);
+    padding-left: 30px;
+    padding-right: 10px;
 }
 
 header {
-    background-image: linear-gradient(blue, rgb(62, 216, 243));
-    text-align: center;
+    background-image: linear-gradient(blue, var(--header-background));
+    padding: 0 0 50px 0;
+    display:flex;
+
 
 }
-ul {
+nav ul {
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    ;
-    
+    text-indent: 20px;
+    list-style: none;
+    font-size: large;
+    align-items: flex-end;
+}
+nav a {
+    color: black;
+    text-decoration: none;
 }
 nav {
-    display:flex;
+    background-color: var(--header-background);  
+    align-self: flex-end;
+}
+
+.about-me {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
     flex-direction: row;
-    
 }
