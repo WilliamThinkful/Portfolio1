@@ -1,0 +1,28 @@
+:root {
+    --primary: rgb(94, 94, 247);
+    --secondary: rgb(13, 13, 236);
+    
+}
+h2 {
+    font-size: xx-large;
+    background-color: black;
+    color:blue;
+}
+
+header {
+    background-image: linear-gradient(blue, rgb(62, 216, 243));
+    text-align: center;
+
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    ;
+    
+}
+nav {
+    display:flex;
+    flex-direction: row;
+    
+}
